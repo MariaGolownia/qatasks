@@ -8,4 +8,8 @@ Shield by shield
 
 Hello
 
+<<<<<<< HEAD
 Hello master
+=======
+Hello feature
+>>>>>>> feature
