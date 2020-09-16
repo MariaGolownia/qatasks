@@ -1,0 +1,10 @@
+Started by user [8mha:////4I18CZmUeR6ChaXPFGWjc0sqd2F2zcSXASQlEoMlaOP7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL93MSizEQAnuODhsAAAAA=[0mHalaunia Maria
+Running as SYSTEM
+Building in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Simple job
+[Simple job] $ cmd /c call C:\Windows\TEMP\jenkins1221818648369424338.bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Simple job>ECHO Hello! 
+Hello!
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Simple job>exit 0 
+Finished: SUCCESS

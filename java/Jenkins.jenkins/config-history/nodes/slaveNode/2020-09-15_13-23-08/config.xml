@@ -1,0 +1,15 @@
+<slave>
+  <name>slaveNode</name>
+  <description></description>
+  <remoteFS>C:\Jenkins\slave</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.os.windows.ManagedWindowsServiceLauncher" plugin="windows-slaves@1.6">
+    <userName></userName>
+    <password>{AQAAABAAAAAQ/ZPzGI88hXJHo6/YC46Alw9oKdm0XgwcAPWRrFD03iE=}</password>
+    <account class="hudson.os.windows.ManagedWindowsServiceAccount$LocalSystem"/>
+  </launcher>
+  <label>win7 x64 opera chrome</label>
+  <nodeProperties/>
+</slave>

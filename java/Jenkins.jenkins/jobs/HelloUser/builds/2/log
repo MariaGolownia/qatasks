@@ -1,0 +1,14 @@
+Started by user [8mha:////4I18CZmUeR6ChaXPFGWjc0sqd2F2zcSXASQlEoMlaOP7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL93MSizEQAnuODhsAAAAA=[0mHalaunia Maria
+Running as SYSTEM
+Building on master in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser
+[HelloUser] $ cmd /c call C:\Windows\TEMP\jenkins6694661817342713669.bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser>Hello,   & UserName!
+"Hello" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"UserName!" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

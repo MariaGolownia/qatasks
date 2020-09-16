@@ -1,0 +1,10 @@
+Started by user [8mha:////4I18CZmUeR6ChaXPFGWjc0sqd2F2zcSXASQlEoMlaOP7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL93MSizEQAnuODhsAAAAA=[0mHalaunia Maria
+Running as SYSTEM
+Building in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Param job
+[Param job] $ cmd /c call C:\Windows\TEMP\jenkins191197218519930288.bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Param job>ECHO pre-prod 
+pre-prod
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Param job>exit 0 
+Finished: SUCCESS

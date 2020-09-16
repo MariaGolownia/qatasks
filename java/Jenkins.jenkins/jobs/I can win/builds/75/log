@@ -1,0 +1,64 @@
+Started by user [8mha:////4I18CZmUeR6ChaXPFGWjc0sqd2F2zcSXASQlEoMlaOP7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL93MSizEQAnuODhsAAAAA=[0mHalaunia Maria
+Running as SYSTEM
+Building on master in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > git.exe init C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.24.1.windows.2'
+ > git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+Commit message: "mention cobertura issue in README"
+ > git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+[Checks API] No suitable checks publisher found.
+[I can win] $ cmd.exe /C "D:\Downloads\apache-maven-3.6.3\bin\mvn.cmd -f Java/pom.xml mvn cobertura:cobertura && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom
+Progress (1): 2.7/16 kBProgress (1): 5.5/16 kBProgress (1): 8.2/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom (16 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+Progress (1): 2.7/10 kBProgress (1): 5.5/10 kBProgress (1): 8.2/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom (10 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar
+Progress (1): 2.7/241 kBProgress (1): 5.5/241 kBProgress (1): 8.2/241 kBProgress (1): 11/241 kB Progress (1): 14/241 kBProgress (1): 16/241 kBProgress (1): 19/241 kBProgress (1): 22/241 kBProgress (1): 25/241 kBProgress (1): 27/241 kBProgress (1): 30/241 kBProgress (1): 33/241 kBProgress (1): 36/241 kBProgress (1): 38/241 kBProgress (1): 41/241 kBProgress (1): 44/241 kBProgress (1): 47/241 kBProgress (1): 49/241 kBProgress (1): 52/241 kBProgress (1): 55/241 kBProgress (1): 58/241 kBProgress (1): 60/241 kBProgress (1): 63/241 kBProgress (1): 66/241 kBProgress (1): 69/241 kBProgress (1): 71/241 kBProgress (1): 74/241 kBProgress (1): 77/241 kBProgress (1): 80/241 kBProgress (1): 82/241 kBProgress (1): 85/241 kBProgress (1): 88/241 kBProgress (1): 90/241 kBProgress (1): 93/241 kBProgress (1): 96/241 kBProgress (1): 99/241 kBProgress (1): 101/241 kBProgress (1): 104/241 kBProgress (1): 107/241 kBProgress (1): 110/241 kBProgress (1): 112/241 kBProgress (1): 115/241 kBProgress (1): 118/241 kBProgress (1): 121/241 kBProgress (1): 123/241 kBProgress (1): 126/241 kBProgress (1): 129/241 kBProgress (1): 132/241 kBProgress (1): 134/241 kBProgress (1): 137/241 kBProgress (1): 140/241 kBProgress (1): 143/241 kBProgress (1): 145/241 kBProgress (1): 148/241 kBProgress (1): 151/241 kBProgress (1): 154/241 kBProgress (1): 156/241 kBProgress (1): 159/241 kBProgress (1): 162/241 kBProgress (1): 165/241 kBProgress (1): 167/241 kBProgress (1): 170/241 kBProgress (1): 173/241 kBProgress (1): 175/241 kBProgress (1): 178/241 kBProgress (1): 181/241 kBProgress (1): 184/241 kBProgress (1): 186/241 kBProgress (1): 189/241 kBProgress (1): 192/241 kBProgress (1): 195/241 kBProgress (1): 197/241 kBProgress (1): 200/241 kBProgress (1): 203/241 kBProgress (1): 206/241 kBProgress (1): 208/241 kBProgress (1): 211/241 kBProgress (1): 214/241 kBProgress (1): 217/241 kBProgress (1): 219/241 kBProgress (1): 223/241 kBProgress (1): 227/241 kBProgress (1): 231/241 kBProgress (1): 235/241 kBProgress (1): 239/241 kBProgress (1): 241 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar (241 kB at 896 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.pom (13 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom
+Progress (1): 4.1/24 kBProgress (1): 8.2/24 kBProgress (1): 12/24 kB Progress (1): 16/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom (24 kB at 179 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+Progress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom (4.8 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.jar
+Progress (1): 4.1/57 kBProgress (1): 8.2/57 kBProgress (1): 12/57 kB Progress (1): 16/57 kBProgress (1): 20/57 kBProgress (1): 25/57 kBProgress (1): 29/57 kBProgress (1): 33/57 kBProgress (1): 37/57 kBProgress (1): 41/57 kBProgress (1): 45/57 kBProgress (1): 49/57 kBProgress (1): 53/57 kBProgress (1): 57/57 kBProgress (1): 57 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.7/cobertura-maven-plugin-2.7.jar (57 kB at 428 kB/s)
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.659 s
+[INFO] Finished at: 2020-09-16T13:29:40+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Unknown lifecycle phase "mvn". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Publishing Coverage report....
+No reports were found
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE
