@@ -1,0 +1,32 @@
+Started by timer
+Running as SYSTEM
+Building on master in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.24.1.windows.2'
+ > git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+Commit message: "mention cobertura issue in README"
+ > git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+[Checks API] No suitable checks publisher found.
+[I can win] $ cmd.exe /C "D:\Downloads\apache-maven-3.6.3\bin\mvn.cmd -f Java/pom.xml test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-ci ---
+Завершить выполнение пакетного файла [Y(да)/N(нет)]? 
+Build step 'Invoke top-level Maven targets' marked build as failure
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

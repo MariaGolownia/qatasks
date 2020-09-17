@@ -1,0 +1,134 @@
+Started by user [8mha:////4I18CZmUeR6ChaXPFGWjc0sqd2F2zcSXASQlEoMlaOP7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL93MSizEQAnuODhsAAAAA=[0mHalaunia Maria
+Running as SYSTEM
+Building on master in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > git.exe init C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.24.1.windows.2'
+ > git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+Commit message: "mention cobertura issue in README"
+ > git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+[Checks API] No suitable checks publisher found.
+[I can win] $ cmd.exe /C "D:\Downloads\apache-maven-3.6.3\bin\mvn.cmd -f Java/pom.xml cobertura:cobertura && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura (default-cli) > [cobertura]test @ hello-ci >>>
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-ci ---
+[8mha:////4NlvV9JGZV/MonrJt86ls486TPQmXc2LmhXa9unPv/qSAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win\Java\src\main\resources
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-ci ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4NlvV9JGZV/MonrJt86ls486TPQmXc2LmhXa9unPv/qSAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win\Java\target\classes
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- cobertura-maven-plugin:2.7:instrument (default-cli) @ hello-ci ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Saved information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-ci ---
+[8mha:////4NlvV9JGZV/MonrJt86ls486TPQmXc2LmhXa9unPv/qSAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win\Java\src\test\resources
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-ci ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4NlvV9JGZV/MonrJt86ls486TPQmXc2LmhXa9unPv/qSAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win\Java\target\test-classes
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:3.0.0-M1:test (default-test) @ hello-ci ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.vitalliuss.helloci.AppTest
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.488 s <<< FAILURE! - in com.github.vitalliuss.helloci.AppTest
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] testShouldBeFailed(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
+
+[INFO] Cobertura: Loaded information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failures: 
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   AppTest.testShouldBeFailed:21
+[INFO] 
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 1
+[INFO] 
+[8mha:////4Kl+UMKKC4+vayIB6OrJPCPNCpvyOjztr3BgBJUKbBrfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] There are test failures.
+
+Please refer to C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win\Java\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura (default-cli) < [cobertura]test @ hello-ci <<<
+[INFO] 
+[INFO] 
+[8mha:////4Mym51ovfwvrG45e3sCcYnu4TRwCDQesJSEu4xCy6m/QAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- cobertura-maven-plugin:2.7:cobertura (default-cli) @ hello-ci ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 2 classes.
+Report time: 228ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.101 s
+[INFO] Finished at: 2020-09-16T13:58:06+03:00
+[INFO] ------------------------------------------------------------------------
+[Cobertura] Publishing Cobertura coverage report...
+
+FATAL: Unable to find coverage results
+java.io.IOException: Expecting Ant GLOB pattern, but saw 'C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\I can win\Java\target\site\cobertura'. See http://ant.apache.org/manual/Types/fileset.html for syntax
+	at hudson.FilePath.glob(FilePath.java:1968)
+	at hudson.FilePath.access$3400(FilePath.java:212)
+	at hudson.FilePath$ListGlob.invoke(FilePath.java:1949)
+	at hudson.FilePath$ListGlob.invoke(FilePath.java:1937)
+	at hudson.FilePath.act(FilePath.java:1076)
+	at hudson.FilePath.act(FilePath.java:1059)
+	at hudson.FilePath.list(FilePath.java:1935)
+	at hudson.FilePath.list(FilePath.java:1919)
+	at hudson.FilePath.list(FilePath.java:1904)
+	at hudson.plugins.cobertura.CoberturaPublisher$ParseReportCallable.invoke(CoberturaPublisher.java:896)
+	at hudson.plugins.cobertura.CoberturaPublisher$ParseReportCallable.invoke(CoberturaPublisher.java:885)
+	at hudson.FilePath.act(FilePath.java:1076)
+	at hudson.FilePath.act(FilePath.java:1059)
+	at hudson.plugins.cobertura.CoberturaPublisher.perform(CoberturaPublisher.java:548)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:112)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1919)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+ERROR: Step ‘Publish Cobertura Coverage Report’ failed: [Cobertura] Unable to find coverage results
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

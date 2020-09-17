@@ -1,0 +1,9 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.jobConfigHistory.HistoryDescr plugin="jobConfigHistory@2.26">
+  <user>Halaunia Maria</user>
+  <userId>maria</userId>
+  <operation>Renamed</operation>
+  <timestamp>2020-09-15_13-08-32</timestamp>
+  <currentName>slaveNode</currentName>
+  <oldName>Swallowja</oldName>
+</hudson.plugins.jobConfigHistory.HistoryDescr>

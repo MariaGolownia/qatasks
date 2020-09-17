@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-14 13:38:28.238 UTC</timestamp>
+  <original>
+    <name>Artifact generator</name>
+    <number>2</number>
+  </original>
+  <md5sum>6dd4566eb245627b49f3abb7e4502dd6</md5sum>
+  <fileName>file.txt</fileName>
+  <usages>
+    <entry>
+      <string>Artifact reciever</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Artifact generator</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>maria</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.45.1"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>file.txt</string>
+          <string>6dd4566eb245627b49f3abb7e4502dd6</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>27</queueId>
+  <timestamp>1600090708034</timestamp>
+  <startTime>1600090708042</startTime>
+  <result>SUCCESS</result>
+  <duration>1312</duration>
+  <charset>windows-1251</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\Artifact reciever</workspace>
+  <hudsonVersion>2.255</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
