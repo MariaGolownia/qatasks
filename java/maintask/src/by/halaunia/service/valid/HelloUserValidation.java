@@ -24,18 +24,4 @@ public class HelloUserValidation {
             }
         }
     }
-
-    public static Boolean checkIfNameArrIsNotEmpty(String[] nameArr) throws IncorrectDataException {
-        Boolean result = false;
-        if (nameArr != null) {
-            Integer countNamesInArrIsNotEmpty = 0;
-            for (int i = 0; i < nameArr.length; i++) {
-                if (nameArr[i] != null || !nameArr[i].trim().equals("")) {
-                    countNamesInArrIsNotEmpty++;
-                }
-            }
-            result = (countNamesInArrIsNotEmpty > 0) ? true : false;
-        }
-        return result;
-    }
 }

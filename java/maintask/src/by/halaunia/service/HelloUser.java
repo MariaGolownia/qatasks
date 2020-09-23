@@ -1,5 +1,6 @@
 package by.halaunia.service;
 
+import by.halaunia.service.valid.CommonValidation;
 import by.halaunia.service.valid.HelloUserValidation;
 
 import java.util.Scanner;
@@ -33,7 +34,7 @@ public class HelloUser {
             String[] strArr = result.split(" ");
             if (strArr == null) {
                 result = HELLO_STR_UNKNOWN_USER;
-            } else if (!HelloUserValidation.checkIfNameArrIsNotEmpty(strArr)) {
+            } else if (!CommonValidation.checkIfStrArrIsNotEmpty(strArr)) {
                 result = HELLO_STR_UNKNOWN_USER;
             } else if (strArr.length > MAX_COUNT_WORDS_IN_NAME) {
                 System.out.println(INFORM_LONG_NAME);
