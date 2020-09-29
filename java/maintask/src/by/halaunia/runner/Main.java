@@ -1,9 +1,4 @@
-package by.halaunia.main;
-
-import by.halaunia.service.*;
-
-import java.util.Arrays;
-import java.util.Scanner;
+package by.halaunia.runner;
 
 public class Main {
 
@@ -26,7 +21,7 @@ public class Main {
 //        System.out.println("The result of sum is " + digits.getSum());
 //        System.out.println("The result of mult is " + digits.getMult());
 
-        //Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу.
+        //5. Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу.
         // Осуществить проверку корректности ввода чисел.
 //        while (true) {
 //            Month.treatMonthCMD();
