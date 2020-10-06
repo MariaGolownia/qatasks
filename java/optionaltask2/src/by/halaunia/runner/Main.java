@@ -5,12 +5,13 @@ import by.halaunia.util.sort.Sort;
 import by.halaunia.util.JaggedArray;
 import by.halaunia.util.JaggedArrayException;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-
-    public static void main(String[] args) {
+    static int i;
+  public static void main(String[] args) {
 //        Ввести с консоли n - размерность матрицы a [n] [n].
 //        Задать значения элементов матрицы в интервале значений от -M до M с помощью генератора случайных чисел (класс Random).
         int[][] jaggedArray = UserDialog.createJaggedArrayByUserDialog();
@@ -34,5 +35,6 @@ public class Main {
         UserDialog.println(Arrays.toString(arrSuccess.toArray()));
         UserDialog.println(JaggedArray.findCountSuccessionInc(jaggedArray).toString());
 
-    }
+  }
 }
+
