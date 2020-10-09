@@ -1,7 +1,5 @@
 package by.halaunia.entities.en_um;
 
-import by.halaunia.entities.Car;
-
 import java.util.Arrays;
 import java.util.List;
 

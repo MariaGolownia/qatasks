@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  */
 
 public class DataValidator {
-    public static final short MIN_CAR_YEAR = 2000;
+    public static final short MIN_CAR_YEAR = 1000;
 
     private DataValidator() {
     }
